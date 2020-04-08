@@ -1,0 +1,123 @@
+@font-face {
+    font-family: cn-bold;
+    src: url(./Comic-Neue-6-fonts/ComicNeue-Bold.ttf);
+}
+
+@font-face {
+    font-family: cn-regular;
+    src: url(./Comic-Neue-6-fonts/ComicNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: cn-light;
+    src: url(./Comic-Neue-6-fonts/ComicNeue-Light.ttf);
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: cn-bold;
+    line-height: 1.7;
+    letter-spacing: 0.1rem;
+}
+
+h2 {
+    font: 2rem;
+    font-family: cn-bold;
+    letter-spacing: 0.1rem;
+    margin-bottom: 2%;
+    line-height: 1.7;
+}
+
+h3 {
+    font: 1.5rem;
+    font-family: cn-bold;
+    letter-spacing: 0.1rem;
+    line-height: 1.7;
+}
+
+p {
+    letter-spacing: 0.1rem;
+}
+
+.profile-pic {
+    width: 60%;
+    margin: 5% 0%;
+    display: inline-block;
+    border: 3px solid white;
+}
+
+.img-container {
+    z-index: -1;
+}
+
+.greet-container {
+    position: relative;
+    z-index: 1;
+}
+
+#title {
+    background-image: linear-gradient(to bottom, #d1d8e0 10%, #a55eea 100%);
+    padding: 5% 10%;
+}
+
+/* ========================================================================================= */
+
+#about-me {
+    padding: 5% 10%;
+}
+
+.support-images {
+    width: 100%
+}
+
+.description {
+    text-align: left;
+    font-family: cn-regular;
+    font-size: 1.2rem
+}
+
+.info-box {
+    margin: 5% 0%;
+}
+
+/* ========================================================================================= */
+
+#the-slide-show {
+    background-color: #404040;
+    color: white;
+    padding: 10%;
+}
+
+ul li{
+    font-family: cn-regular;
+    font-size: 1.5rem  
+}
+
+ul {
+    list-style: none;
+}
+
+.container-fluid {
+    height: 70%;
+}
+
+
+
+/* ========================================================================================= */
+
+#contact-details {
+    padding: 5%;
+}
+
+.the-social-buttons {
+    outline: none;
+    margin: 5%;
+}
+
+.card-body {
+    margin: 5%;
+}
